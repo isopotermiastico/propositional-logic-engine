@@ -15,7 +15,8 @@ builds an abstract syntax tree (AST), and generates a full truth table.
 Enter expression: (not not a and (c or b)) -> not d 
 
 -Outputs the following:
-      a              b              c              d       ((a AND (c OR b)) -> NOT d)
+
+       a              b              c              d       ((a AND (c OR b)) -> NOT d)
       True           True           True           True          False
       True           True           True          False           True
       True           True          False           True          False
